@@ -6,21 +6,39 @@
     , "children": [
         {
           "name": "Graham Mitchell"
+        , "spouse": {
+            "name": "Angie Basset"
+        }
       }
       , {
           "name": "Shannon Mitchell"
+        , "spouse": {
+            "name": "Jessie Bradley"
+        }
       }
       , {
           "name": "David Mitchell"
+        , "spouse": {
+            "name": "Racheal Jean Hymas"
+        }
       }
       , {
-          "name": "Matthew Ray Mitchell"
+          "name": "Matthew Rhea Mitchell"
+        , "spouse": {
+            "name": "Brittany Jolene Biggs"
+        }
       }
       , {
           "name": "Aaron Mitchell"
+        , "spouse": {
+            "name": "Melissa Emily Orme"
+        }
       }
       , {
           "name": "Megan Aline Mitchell"
+        , "spouse": {
+            "name": "Brandon James Bassett"
+        }
       }
       , "~"
     ]
@@ -39,9 +57,11 @@
         }
       }
     }
+    , "spouse": {
+        "name": "Phyllis Anderson"
+      , "children": "~father~children"
+      , "spouse": "~father"
+    }
   }
-  , "mother": {
-      "name": "Phyllis Anderson"
-    , "children": "~father~children"
-  }
+  , "mother": "~father~spouse"
 }
